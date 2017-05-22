@@ -55,8 +55,8 @@ public class SpellCheckerController {
     	
     	model.loadDictionary(cmbLingua.getValue());
     	
-    	for(int i=0; i<txtInput.getText().length(); i++){
-    		if(Character.isDigit(txtInput.getText().charAt(i))==true){
+    	for(int i=0; i<txtInput.getText().length(); i++) {
+    		if(Character.isDigit(txtInput.getText().charAt(i))==true) {
     			valida = false;
     			txtOutput.setText("Not valid");
     			break;
